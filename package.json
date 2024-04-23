@@ -1,8 +1,8 @@
 {
   "name": "elastic-tiny-client",
   "version": "0.1.5",
-  "main": "lib/index.js",
-  "repository": "https://github.com/samuelgja/elastic-tiny-client",
+  "exports": "src/index.ts",
+  "repository": "https://github.com/prazedotid/elastic-tiny-client",
   "scripts": {
     "build": "tsc && node scripts/copy-data.mjs",
     "watch": "nodemon --config nodemon.json",
